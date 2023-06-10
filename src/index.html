@@ -1,0 +1,94 @@
+<h5>1. Table Generator</h5>
+<label for="numRows">Number of Rows:</label>
+<input type="number" id="numRows">
+<button onclick="generateTable()">Generate Table</button>
+<br>
+<table id="table"></table>
+
+<h5>2. Fibonacci Number Generator</h5>
+
+<label for="fibonacciInput">Fibonacci Number:</label>
+<input type="number" id="fibonacciInput">
+<button onclick="generateFibonacci()">Generate Fibonacci Numbers</button>
+<br>
+<textarea id="fibonacciOutput" rows="10" cols="50" readonly></textarea>
+
+<h5>3. Number Sorting</h5>
+<label for="numberInput">Numbers:</label>
+<input type="text" id="numberInput">
+<button onclick="sortAscending()">Sort Ascending</button>
+<button onclick="sortDescending()">Sort Descending</button>
+<br>
+<div id="result"></div>
+
+<h5>4a. Display Flex</h5>
+
+<div class="table-container-flex">
+  <div class="table-row-flex">
+    <div class="table-cell-flex">Header 1</div>
+    <div class="table-cell-flex">Header 2</div>
+    <div class="table-cell-flex">Header 3</div>
+  </div>
+  <div class="table-row-flex">
+    <div class="table-cell-flex">Data 1</div>
+    <div class="table-cell-flex">Data 2</div>
+    <div class="table-cell-flex">Data 3</div>
+  </div>
+  <div class="table-row-flex">
+    <div class="table-cell-flex">Data 4</div>
+    <div class="table-cell-flex">Data 5</div>
+    <div class="table-cell-flex">Data 6</div>
+  </div>
+</div>
+
+<h5>4b. Display Grid</h5>
+
+<div class="table-container-grid">
+  <div class="table-cell-grid">Header 1</div>
+  <div class="table-cell-grid">Header 2</div>
+  <div class="table-cell-grid">Header 3</div>
+  <div class="table-cell-grid">Data 1</div>
+  <div class="table-cell-grid">Data 2</div>
+  <div class="table-cell-grid">Data 3</div>
+  <div class="table-cell-grid">Data 4</div>
+  <div class="table-cell-grid">Data 5</div>
+  <div class="table-cell-grid">Data 6</div>
+</div>
+
+<h5>5. Adobe - Twitter Profile</h5>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Notifications</a></li>
+      <li><a href="#">Messages</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="profile">
+    <div class="profile-banner"></div>
+    <div class="profile-info">
+      <img src="https://primefaces.org/cdn/primeng/images/galleria/galleria1.jpg" alt="Adobe Profile Picture">
+      <h1>Adobe</h1>
+      <p>@Adobe</p>
+    </div>
+  </section>
+
+  <section class="tweets">
+    <div class="tweet">
+      <div class="tweet-avatar">
+        <img class="tweet-avatar" src="https://primefaces.org/cdn/primeng/images/galleria/galleria1.jpg" alt="Adobe Profile Picture">
+      </div>
+      <div class="tweet-content">
+        <h3>Adobe</h3>
+        <p>Check out our latest creative software updates! #Adobe #Creativity</p>
+      </div>
+    </div>
+
+    <!-- Additional tweets -->
+  </section>
+</main>

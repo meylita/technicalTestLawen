@@ -1,0 +1,138 @@
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+.odd-row {
+  background-color: white;
+}
+.even-row {
+  background-color: lightgrey;
+}
+
+.table-container-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.table-row-flex {
+  display: flex;
+}
+
+.table-cell-flex {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.table-container-grid {
+  display: grid;
+  border: 1px solid black;
+  padding: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.table-cell-grid {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+/* Twitter*/
+
+header {
+  background-color: #1da1f2;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-banner {
+  background-color: #1da1f2;
+  width: 100%;
+  height: 200px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-info img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-info h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-info p {
+  font-size: 16px;
+  color: #555;
+}
+
+.tweets {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.tweet {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tweet-avatar {
+  background-color: #1da1f2;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.tweet-content {
+  flex-grow: 1;
+}
+
+.tweet-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tweet-content p {
+  font-size: 16px;
+  color: #555;
+}
